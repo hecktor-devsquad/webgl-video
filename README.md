@@ -13,7 +13,7 @@ Este projeto foi criado para demonstrar um problema relacionado ao uso de raycas
 
 1. **Clone o repositório**:
     ```bash
-    git clone [https://github.com/hecktor-devsquad/webgl-video.git](https://github.com/hecktor-devsquad/webgl-video.git)
+    git clone https://github.com/hecktor-devsquad/webgl-video.git
     cd webgl-video
     ```
 
