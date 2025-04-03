@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Rock(props) {
-  const { nodes, materials } = useGLTF('/models/Rock.glb')
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}models/Rock.glb`)
   return (
     <group name="rock" {...props} dispose={null}>
       <mesh geometry={nodes.Node.geometry} material={materials.mat22} castShadow />
@@ -15,4 +15,4 @@ export function Rock(props) {
   )
 }
 
-useGLTF.preload('/models/Rock.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}models/Rock.glb`)

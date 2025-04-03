@@ -8,7 +8,7 @@ import { useGLTF } from '@react-three/drei'
 import { useControls } from 'leva'
 
 export function Palm(props) {
-  const { nodes, materials } = useGLTF('/models/Palm.glb')
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}models/Palm.glb`)
 
   // Leva controls for position
   const { position } = useControls('Palm', {
@@ -22,4 +22,4 @@ export function Palm(props) {
   )
 }
 
-useGLTF.preload('/models/Palm.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}models/Palm.glb`)
