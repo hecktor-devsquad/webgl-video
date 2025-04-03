@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 export function Rock(props) {
   const { nodes, materials } = useGLTF('/models/Rock.glb')
   return (
-    <group {...props} dispose={null}>
+    <group name="rock" {...props} dispose={null}>
       <mesh geometry={nodes.Node.geometry} material={materials.mat22} castShadow />
     </group>
   )

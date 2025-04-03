@@ -16,7 +16,7 @@ export function Palm(props) {
   })
 
   return (
-    <group {...props} dispose={null} position={position} scale={[0.8, 0.8, 0.8]}>
+    <group name="palm" {...props} dispose={null} position={position} scale={[0.8, 0.8, 0.8]}>
       <mesh geometry={nodes.Environment_PalmTree_3.geometry} material={materials.Atlas} scale={100} castShadow />
     </group>
   )

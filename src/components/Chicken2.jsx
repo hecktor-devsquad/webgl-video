@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.5.3 public/models/Chicken.glb -o src/components/Chiken.js
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Chicken(props) {
+export function Chicken2(props) {
   const { nodes, materials } = useGLTF('/models/Chicken.glb')
 
   return (
