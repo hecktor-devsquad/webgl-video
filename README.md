@@ -20,7 +20,7 @@ Este projeto foi criado para demonstrar um problema relacionado ao uso de raycas
 2. **Instale as dependências**:
     Certifique-se de ter o Node.js instalado e execute:
     ```bash
-    yarn install
+    yarn
     ```
 
 3. **Inicie o servidor de desenvolvimento**:
